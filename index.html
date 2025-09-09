@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgian Portfolio - ვებ დეველოპერი</title>
+    <meta name="description" content="პროფესიონალური ვებ დეველოპერი საქართველოში. ვებსაიტების დამზადება, მოდერნული დიზაინი, სრული ფუნქციონალი.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-code me-2"></i>gedevla.net
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">მთავარი</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ჩემს შესახებ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">სერვისები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">ფასები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">კონტაქტი</a>
+                    </li>
+                </ul>
+                <a href="tel:+995591902479" class="btn btn-primary ms-3">
+                    <i class="fas fa-phone me-2"></i>591902479
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <img src="background.jpg" class="image">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            საიტის
+                            <span class="gradient-text">დამზადება</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            საუკეთესო ხარისხი ხელმისაწვდომ ფასად
+                        </p>
+                        <p class="hero-description">
+                            ვქმნი პროფესიონალურ ვებსაიტებს მოდერნული დიზაინით და სრული ფუნქციონალით. 
+                            თანამედროვე ტექნოლოგიები, მობილური ოპტიმიზაცია და SEO.
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">წლიანი გამოცდილება</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">კმაყოფილი კლიენტი</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">150+</span>
+                                <span class="stat-label">წარმატებული პროექტი</span>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg">
+                                <i class="fas fa-rocket me-2"></i>სწრაფი შეკვეთა
+                            </a>
+                            <a href="tel:+995591902479" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-phone me-2"></i>591902479
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="floating-card">
+                            <div class="card-header">
+                                <div class="card-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="code-line">
+                                    <span class="keyword">function</span> 
+                                    <span class="function">createWebsite</span>() {
+                                </div>
+                                <div class="code-line indent">
+                                    <span class="keyword">return</span> 
+                                    <span class="string">"პროფესიონალური საიტი"</span>;
+                                </div>
+                                <div class="code-line">}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title">ჩემს შესახებ</h2>
+                        <p class="section-subtitle">პროფესიონალური ვებ დეველოპერი</p>
+                        <p>
+                            მე ვარ ლაშა, ვებ დეველოპერი 10+ წლიანი გამოცდილებით. ვქმნი თანამედროვე, 
+                            ფუნქციონალურ და მიმზიდველ ვებსაიტებს რომლებიც აღემატება მომხმარებლების მოლოდინებს.
+                        </p>
+                        
+                        <div class="skills-section">
+                            <h4>ჩემი ექსპერტიზა:</h4>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML5 & CSS3</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-js-square"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-react"></i>
+                                    <span>React & Vue</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python & Flask</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>Databases</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advantages">
+                            <div class="advantage-item">
+                                <i class="fas fa-bolt text-warning"></i>
+                                <div>
+                                    <h5>სწრაფი განვითარება</h5>
+                                    <p>ყველა პროექტი ვითარდება ოპტიმალურ ვადებში</p>
+                                </div>
+                            </div>
+                            <div class="advantage-item">
+                                <i class="fas fa-shield-alt text-success"></i>
+                                <div>
+                                    <h5>ხარისხის გარანტია</h5>
+                                    <p>მაღალი ხარისხის სტანდარტები ყველა პროექტში</p>
+                                </div>
+                            </div>
+                            <div class="advantage-item">
+                                <i class="fas fa-headset text-info"></i>
+                                <div>
+                                    <h5>24/7 მხარდაჭერა</h5>
+                                    <p>მუდმივი ტექნიკური მხარდაჭერა და კონსულტაცია</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="profile-card">
+                            <div class="profile-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3>ლაშა დეველოპერი</h3>
+                            <p>Senior Full-Stack Developer</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">ჩემი სერვისები</h2>
+                <p class="section-subtitle">სრული სპექტრის ვებ მომსახურება</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>ვებსაიტის დამზადება</h4>
+                        <p>ნებისმიერი სირთულის კორპორაცული ვებსაიტები, ონლაინ მაღაზიები, ლენდინგ გვერდები</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> რესპონსიული დიზაინი</li>
+                            <li><i class="fas fa-check"></i> SEO ოპტიმიზაცია</li>
+                            <li><i class="fas fa-check"></i> სწრაფი ჩატვირთვა</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>ვებ დიზაინი</h4>
+                        <p>თანამედროვე და მიმზიდველი დიზაინი თქვენი ბრენდისთვის</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> UI/UX დიზაინი</li>
+                            <li><i class="fas fa-check"></i> ბრენდინგი</li>
+                            <li><i class="fas fa-check"></i> ოპტიმიზებული UX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h4>ონლაინ მაღაზია</h4>
+                        <p>სრულფასოვანი ელექტრონული კომერცია გადახდის სისტემებით</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> პროდუქტის კატალოგი</li>
+                            <li><i class="fas fa-check"></i> ონლაინ გადახდა</li>
+                            <li><i class="fas fa-check"></i> ადმინ პანელი</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>SEO ოპტიმიზაცია</h4>
+                        <p>საძიებო სისტემებში ხილვადობის გაზრდა და ორგანული ტრაფიკის მოზიდვა</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> საკვანძო სიტყვების ანალიზი</li>
+                            <li><i class="fas fa-check"></i> ტექნიკური SEO</li>
+                            <li><i class="fas fa-check"></i> კონტენტის ოპტიმიზაცია</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>ტექნიკური მხარდაჭერა</h4>
+                        <p>საიტის განახლება, მოვლა და უსაფრთხოების უზრუნველყოფა</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> რეგულარული განახლებები</li>
+                            <li><i class="fas fa-check"></i> უსაფრთხოების მონიტორინგი</li>
+                            <li><i class="fas fa-check"></i> ბექაპები</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>მობილური აპლიკაციები</h4>
+                        <p>iOS და Android აპლიკაციების შექმნა თანამედროვე ტექნოლოგიებით</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> React Native</li>
+                            <li><i class="fas fa-check"></i> Cross-platform</li>
+                            <li><i class="fas fa-check"></i> App Store გამოქვეყნება</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">ფასები</h2>
+                <p class="section-subtitle">აირჩიეთ თქვენთვის შესაფერისი პაკეტი</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h4>ერთგვერდიანი საიტი</h4>
+                            <p>სწრაფი და ეფექტური ვებსაიტი</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">299₾</span>
+                            <span class="price-period">-დან</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 1 გვერდი</li>
+                            <li><i class="fas fa-check"></i> მობილური ოპტიმიზაცია</li>
+                            <li><i class="fas fa-check"></i> SEO ოპტიმიზაცია</li>
+                            <li><i class="fas fa-check"></i> კონტაქტის ფორმა</li>
+                            <li><i class="fas fa-check"></i> სოციალური მედიის ინტეგრაცია</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">შეკვეთა</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h4>მრავალგვერდიანი საიტი</h4>
+                            <p>კომპლექსური ვებსაიტი ბიზნესისთვის</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">599₾</span>
+                            <span class="price-period">-დან</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> რამოდენიმე გვერდი</li>
+                            <li><i class="fas fa-check"></i> ადმინ პანელი</li>
+                            <li><i class="fas fa-check"></i> კონტენტის მართვა</li>
+                            <li><i class="fas fa-check"></i> ფოტო გალერეა</li>
+                            <li><i class="fas fa-check"></i> ბლოგი/სიახლეები</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">შეკვეთა</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card featured">
+                        <div class="featured-badge">პოპულარული</div>
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h4>ონლაინ მაღაზია</h4>
+                            <p>სრულფასოვანი ელექტრონული კომერცია</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">1500₾</span>
+                            <span class="price-period">-დან</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> კატალოგი</li>
+                            <li><i class="fas fa-check"></i> კალათა</li>
+                            <li><i class="fas fa-check"></i> ონლაინ გადახდა</li>
+                            <li><i class="fas fa-check"></i> მომხმარებლის ანგარიში</li>
+                            <li><i class="fas fa-check"></i> შეკვეთების მართვა</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">შეკვეთა</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>უნიკალური საიტი</h4>
+                            <p>ინდივიდუალური დიზაინი და ფუნქციონალი</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">3500₾</span>
+                            <span class="price-period">-დან</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 100% უნიკალური დიზაინი</li>
+                            <li><i class="fas fa-check"></i> ინდივიდუალური ფუნქციონალი</li>
+                            <li><i class="fas fa-check"></i> API ინტეგრაციები</li>
+                            <li><i class="fas fa-check"></i> ანალიტიკა</li>
+                            <li><i class="fas fa-check"></i> უვადო ტექნიკური მხარდაჭერა</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">შეკვეთა</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <h3>ვერ იპოვეთ შესაფერისი პაკეტი?</h3>
+                <p>დაგვიკავშირდით ინდივიდუალური შეთავაზებისთვის თქვენი საჭიროებების მიხედვით</p>
+                <a href="#contact" class="btn btn-primary btn-lg me-3">
+                    <i class="fas fa-comments me-2"></i>ინდივიდუალური კონსულტაცია
+                </a>
+                <a href="mailto:speciallistit@gmail.com" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-envelope me-2"></i>მოგვწერეთ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">კონტაქტი</h2>
+                <p class="section-subtitle">მიიღეთ უფასო კონსულტაცია თქვენი ბიზნესის განსავითარებლად</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>საიტის დამზადება და ვებსაიტის დიზაინი</h3>
+                        <p>ჩვენ ვიღებთ პასუხისმგებლობას, რომ შევქმნით ვებსაიტს, რომელიც აღემატება თქვენს მოლოდინებს. დაგვიკავშირდით და გაგვიზიარეთ თქვენი იდეა!</p>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>ტელეფონი</h5>
+                                <a href="tel:+995591902479">591902479</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>ელ-ფოსტა</h5>
+                                <a href="mailto:speciallistit@gmail.com">speciallistit@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="social-section">
+                            <h5>გამოგვყევით სოციალურ ქსელებში</h5>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form-wrapper">
+                        <h4>მოგვწერეთ</h4>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">სახელი *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">ელ-ფოსტა *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">ტელეფონი</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">თემა *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">აირჩიეთ თემა</option>
+                                    <option value="ვებსაიტის დამზადება">ვებსაიტის დამზადება</option>
+                                    <option value="ონლაინ მაღაზია">ონლაინ მაღაზია</option>
+                                    <option value="SEO ოპტიმიზაცია">SEO ოპტიმიზაცია</option>
+                                    <option value="ტექნიკური მხარდაჭერა">ტექნიკური მხარდაჭერა</option>
+                                    <option value="სხვა">სხვა</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">შეტყობინება *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="აღწერეთ თქვენი პროექტი და მოთხოვნები..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="fas fa-paper-plane me-2"></i>შეტყობინების გაგზავნა
+                            </button>
+                            <div id="form-message" class="form-message"></div>
+                        </form>
+                        <div class="text-center mt-3">
+                            <p><i class="fas fa-phone me-2"></i>სწრაფი პასუხისთვის დარეკეთ: <a href="tel:+995591902479">591902479</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Georgian Portfolio. ყველა უფლება დაცულია.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
